@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bootstrap4/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <title>Reszponziv (Bootstrap) Weboldal</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsed">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white" href="weboldal.html">Főoldal</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="table.html">Táblázat</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="form.html">Űrlap</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Képgaléria</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center" id="gyere-ide">
+        <h1>Reszponziv Táblázat</h1>
+        <p>Készítette: Kánnár Ádám</p>
+    </div>
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <table class="table border table-striped table-hover table-sm">
+                    <thead class="table-dark">
+                        <tr>
+                            <th> #</th>
+                            <th>Vezetéknév</th>
+                            <th>Keresztnév</th>
+                            <th>Életkor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-danger">
+                            <td>1</td>
+                            <td>Gipsz</td>
+                            <td>Jakab</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Mézga</td>
+                            <td>Géza</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bél</td>
+                            <td>Flóra</td>
+                            <td>35</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>4</td>
+                            <td>Mekk</td>
+                            <td>Elek</td>
+                            <td>45</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Bekő</td>
+                            <td>Tóni</td>
+                            <td>55</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <p><a href="#gyere-ide" class="mx-5"> Vissza a lap tetejére</a></p>
+</body>
+
+</html>
